@@ -3,7 +3,7 @@
 
 ## Overview
 
-This Python script serves as a valuable tool for generating insightful graphical representations of data through the powerful combination of Matplotlib and NumPy. The primary objective is to rigorously assess its compatibility with my ongoing project, specifically in the development of a sophisticated code editor. By harnessing Matplotlib's plotting capabilities and NumPy's efficient numerical operations, the script not only visualizes data but also aims to gauge its potential integration within the project's framework. This evaluation is crucial for determining the script's viability as a robust solution for enhancing the visualization and analytical aspects of the code editor under development.
+This Python script serves as a valuable tool for generating insightful graphical representations of data through the powerful combination of Matplotlib. The primary objective is to rigorously assess its compatibility with my ongoing project, specifically in the development of a sophisticated code editor. By harnessing Matplotlib's plotting capabilities the script not only visualizes data but also aims to gauge its potential integration within the project's framework. This evaluation is crucial for determining the script's viability as a robust solution for enhancing the visualization and analytical aspects of the code editor under development.
 
 ## Prerequisites
 
