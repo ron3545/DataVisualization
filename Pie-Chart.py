@@ -1,21 +1,18 @@
-import matplotlib.pyplot as plt 
-  
-# defining labels 
-activities = ['eat', 'sleep', 'work', 'play'] 
-  
-# portion covered by each label 
-slices = [3, 7, 8, 6] 
-  
-# color for each label 
-colors = ['r', 'y', 'g', 'b'] 
-  
-# plotting the pie chart 
-plt.pie(slices, labels = activities, colors=colors,  
-        startangle=90, shadow = True, explode = (0, 0, 0.1, 0), 
-        radius = 1.2, autopct = '%1.1f%%') 
-  
-# plotting legend 
-plt.legend() 
-  
-# showing the plot 
-plt.show() 
+import matplotlib.pyplot as plt
+
+def create_robotics_pie_chart():
+    # Data for the pie chart
+    components = ['Sensors', 'Actuators', 'Microcontrollers', 'Power Supply', 'Mechanical Parts']
+    percentages = [25, 20, 20, 15, 20]
+
+    # Plotting the pie chart
+    plt.figure(figsize=(8, 8))
+    plt.pie(percentages, labels=components, autopct='%1.1f%%', startangle=140, colors=['blue', 'orange', 'green', 'red', 'purple'])
+    plt.title('Robotics Project Components')
+    plt.axis('equal')  # Equal aspect ratio ensures that the pie chart is circular.
+
+    # Show the pie chart
+    plt.show()
+
+# Call the function to create and display the pie chart
+create_robotics_pie_chart()
